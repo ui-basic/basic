@@ -56,3 +56,24 @@ strong{
 	font-family:tahoma;
 	color:#f00;
 }
+h1 a{
+	overflow:hidden;
+	display:block;
+	width:73px;
+	height:14px;
+	margin:10px;
+	background:url(img/sp_header.png) no-repeat 0 -90px;
+	text-indent:-999px;
+}
+/* 스프라이트 이미지 */
+/*
+h1 a{
+	overflow:hidden;
+	display:block;
+	width:73px;
+	height:14px;
+	margin:10px;
+	background:url(img/sp_header.png) no-repeat 0 -90px;
+	text-indent:-999px;
+}
+*/
