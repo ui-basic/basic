@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+div{
+	margin:0;
+	padding:0;
+	border:1px solid #000;
+}
+
+#wrap{
+
+}
+
+#header{
+	height:100px;
+	background:orange;
+ }
+
+#container{
+	background:red;
+}
+
+#content{
+	height:500px;
+	background:pink;
+}
+
+#aside{
+	height:500px;
+	background:yellow;
+}
+
+#footer{
+	height:100px;
+	background:green;
+}

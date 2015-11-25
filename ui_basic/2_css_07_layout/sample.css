@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+div{
+	margin:0;
+	padding:0;
+	border:1px solid #000;
+}
+
+#wrap{
+	width:906px;
+	margin:0 auto;
+}
+/*
+
+#header{
+	height:100px;
+	background:orange;
+ }
+
+#container{
+	background:red;
+}
+
+#content{
+	height:500px;
+	background:pink;
+}
+
+#aside{
+	height:500px;
+	background:yellow;
+}
+
+#footer{
+	height:100px;
+	background:green;
+}
+
+*/
+
+#header{
+	height:100px;
+	background:orange;
+}
+
+#container{
+	background:red;
+}
+
+#container:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+
+#content{
+	float:left;
+	width:600px;
+	height:500px;
+	/*margin:10px;*/
+	background:pink;
+}
+
+#aside{
+	position:relative;
+	float:left;
+	/*overflow:hidden;*/
+	/* overflow 를 쓰게되면 레이어 팝업이 짤릴 수 있습니다.*/
+
+	width:300px;
+	height:500px;
+	background:yellow;
+}
+
+.ly{
+	position:absolute;
+	top:50%;
+	left:-30px;
+	width:100px;
+	height:100px;
+	margin-top:-50px;
+	background:#ccc;
+}
+
+#footer{
+	height:100px;
+	background:green;
+}

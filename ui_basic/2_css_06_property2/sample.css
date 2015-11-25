@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	margin:0;
+	padding:0 0 0 20px;
+	border-top:15px solid red;
+	border-bottom:5px solid #ff0000;
+}
+
+a{
+	font-family:'돋움',dotum;
+	color:#2db400;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+
+ul{
+	margin:20px;
+	padding:30px;
+	border:2px solid #000;
+	background:#ddd;
+}
+
+/*
+ul:after{
+	display:block;
+	content:'';
+	clear:both;
+}
+*/
+
+li{
+	/*display:inline-block;*/
+	/*float:left;*/
+	list-style:none;
+}
+
+li a{
+	color:#000;
+}
+
+li a:hover{
+	color:#000;
+}
+
+strong{
+	font-family:tahoma;
+	color:#f00;
+}
