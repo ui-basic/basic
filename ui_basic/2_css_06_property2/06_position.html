@@ -6,26 +6,44 @@
 
 	<style>
 		div{
-			/*float:left;*/
-			/*float:right;*/
-			margin:10px;
 			padding:10px;
-			border:2px solid #000;
+			border:10px solid #000;
 		}
 
-		/*div div{float:none}*/
-
-		span{
-			padding:0 20px;
-			border:2px solid red;
+		.test{
+			width:600px;
+			height:500px;
+			margin:0 auto;
+			background:pink;
 		}
 
-		/*.test div{float:left;}*/
-		/*.test:after{
-			display:block;
-			content:'';
-			clear:both;
-		}*/
+		.box{
+			width:150px;
+			height:100px;
+		}
+
+		.relative{
+			position:relative;
+			background:red;
+		}
+
+		.abolute{
+			position:absolute;
+			top:0;
+			left:0;
+			width:200px;
+			height:120px;
+			background:yellow;
+		}
+
+		.fixed{
+			position:fixed;
+			top:0;
+			left:0;
+			width:100px;
+			height:80px;
+			background:green;
+		}
 	</style>
 </head>
 <body>
@@ -33,31 +51,17 @@
 <div class="test">
 	block1
 
-	<div style="width:150px">
-		block2
+	<div class="box relative">
+		box1 : relative
 	</div>
 
-	<div style="width:100px">
-		block3
+	<div class="box abolute">
+		box2 : absolute
 	</div>
 
-	<div style="width:80px">
-		block4
+	<div class="box fixed">
+		box3 : fixed
 	</div>
-
-	<div style="width:120px">
-		block5
-	</div>
-</div>
-
-<br>
-
-<div>
-	<span>inline1</span>
-	<span>inline2</span>
-	<span>inline3</span>
-	<span>inline4</span>
-	<span>inline5</span>
 </div>
 
 </body>
